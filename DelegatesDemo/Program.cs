@@ -16,10 +16,10 @@ namespace DelegatesDemo
         {
             DelegatesClass Class = new DelegatesClass();
 
-            //DelegateDemo del = new DelegateDemo(Class.FirstMethod);
-            //Console.WriteLine( del(25, 5));
-            //DelegateDemo dele = new DelegateDemo(Class.SecondMethod);
-            //Console.WriteLine(del(25, 50));
+            DelegateDemo del = new DelegateDemo(Class.FirstMethod);
+            Console.WriteLine(del(25, 5));
+            DelegateDemo dele = new DelegateDemo(Class.SecondMethod);
+            Console.WriteLine(del(25, 50));
             //Console.WriteLine(Class.FirstMethod(50,63));
             //Console.WriteLine(Class.SecondMethod(20,30));
 
